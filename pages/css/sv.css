@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+h1{
+    color: chartreuse;
+}
+h2{
+    color: yellow;
+}
+h3{
+    color: coral;
+}
+p{
+    color: white;
+    border: 3px solid white;
+    margin-right: 23cm;
+}
+img{
+    height: auto;
+    width: auto;
+}

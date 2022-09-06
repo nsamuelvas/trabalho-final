@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}a{
+    color: rgb(0, 140, 255);
+    margin-left: 10px;
+}
+h1{
+    color: hsl(193, 78%, 79%);
+}
+h2{
+    color: yellow;
+}
+h3{
+    color: greenyellow;
+}
+p{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    color: white;
+}
+img{
+    float: right;
+    width: 200px;
+    height: 200px;
+}#imgt{
+    float: right;
+    animation-name: imgt;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgt{
+    0%{transform:rotateZ(7rad)}
+    100%{background-color: black;}
+}nav ul{
+    color: blue;
+    box-sizing: border-box;
+    padding: 10px;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li a:hover{
+    color: red;
+}nav ul li a{
+    font-size: 30px;
+}
+a{
+    font-size: 20px;
+}
+.sect{
+    margin-left: 10px;
+    color: white;
+}
+.sect img{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px; 
+    float: left;
+}img:hover{
+    transform: scale(1.2);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}footer p{
+    border: none;
+    font-size: 30px;
+    color: red;
+}

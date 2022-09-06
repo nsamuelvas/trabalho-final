@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}#imgt{
+    float: right;
+    animation-name: imgt;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgt{
+    0%{transform:rotateZ(7rad)}
+    100%{background-color: black;}
+}
+header{
+    color: white;
+}
+main{
+    color: white;
+}
+#pygame{
+    color: white;
+}
+#automatizacao{
+    color: white;
+}
+h1{
+    color: hsl(193, 78%, 79%);
+}
+h2{
+    color: yellow;
+}
+a{
+    color: blue;
+    margin-left: 10px;
+    font-size: 30px;
+}
+nav ul{
+    color: rgb(0, 204, 255);
+    box-sizing: border-box;
+    padding: 10px;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li a:hover{
+    color: red;
+}
+#wPython{
+    color: white;
+}
+img:hover{
+    transform: scale(1.2);
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}footer p{
+    border: none;
+    font-size: 30px;
+    color: red;
+}

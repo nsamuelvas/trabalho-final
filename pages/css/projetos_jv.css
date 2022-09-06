@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}#imgt{
+    float: right;
+    animation-name: imgt;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgt{
+    0%{transform:rotateX(1rad)}
+    100%{background-color: black;}
+}
+h1{
+    margin-left: 10px;
+    color: hsl(193, 78%, 79%);
+}
+h2{
+    color: yellow;
+}
+h3{
+    color: greenyellow;
+}
+nav ul{
+    color: blue;
+    box-sizing: border-box;
+    padding: 10px;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul a:hover{
+    color: red;
+}
+nav ul a{
+    color: rgb(0, 140, 255);
+    margin-left: 10px;
+    font-size: 30px;
+}
+main{
+    margin-left: 10px;
+    color: white;
+}
+.sect{
+    margin-left: 10px;
+    color: white;
+}img{
+    width: 300px;
+    width: 300px;
+}#juros img{
+    width: 500px;
+    width: 500px;
+} 
+img:hover{
+    transform: scale(1.2);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}footer p{
+    border: none;
+    font-size: 30px;
+    color: red;
+}
